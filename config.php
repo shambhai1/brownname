@@ -1,0 +1,33 @@
+<?php
+declare(strict_types=1);
+
+const APP_NAME = 'online-college-admission';
+const DB_HOST = '127.0.0.1';
+const DB_PORT = '3306';
+const DB_NAME = 'college_admission';
+const DB_USER = 'root';
+const DB_PASS = '';
+const ADMIN_EMAIL = 'admin@college.local';
+const ADMIN_PASSWORD = 'admin123';
+const OTP_EXPIRY_SECONDS = 300;
+const OTP_RESEND_COOLDOWN_SECONDS = 30;
+const OTP_EMAIL_FROM = 'no-reply@mahatmaphulecollege.local';
+const OTP_EMAIL_FROM_NAME = 'Online College Admission System';
+const SMTP_HOST = 'smtp.gmail.com';
+const SMTP_PORT = 587;
+const SMTP_USERNAME = '';
+const SMTP_PASSWORD = '';
+const SMTP_ENCRYPTION = 'tls';
+const GOOGLE_CLIENT_ID = '';
+const GOOGLE_CLIENT_SECRET = '';
+const GOOGLE_REDIRECT_URI = 'http://localhost/online%20college-admission/google-callback.php';
+const OTP_SMS_PROVIDER = 'demo'; // demo | none | fast2sms | twilio
+const OTP_DEV_EXPOSE_CODE = true;
+const FAST2SMS_API_KEY = '';
+const FAST2SMS_SENDER_ID = 'FSTSMS';
+const FAST2SMS_ROUTE = 'q';
+const FAST2SMS_LANGUAGE = 'english';
+const TWILIO_ACCOUNT_SID = '';
+const TWILIO_AUTH_TOKEN = '';
+const TWILIO_FROM_NUMBER = '';
+const DOCUMENT_MAX_SIZE_BYTES = 2097152; // 2 MB per file
